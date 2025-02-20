@@ -4,10 +4,10 @@
 // index i and going up to but not including index j.
 
 function makeOutWord(out, word){
-  let leftContainer = out.substring(0,2)
-  let rightContainer = out.substring(2,4)
+  let leftContainer = out.substring(0,2);
+  let rightContainer = out.substring(2,4);
   if (out.length === 4){
-  return leftContainer + word + rightContainer
+  return leftContainer + word + rightContainer;
   }
 }
 
