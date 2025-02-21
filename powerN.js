@@ -3,7 +3,7 @@
 
 function powerN(base, n){
   if (n === 1) return base;
-  else (n > 1) return base * powerN(base, n-1);
+  else return base * powerN(base, n-1);
 }
 
 console.log(powerN(3, 1));
