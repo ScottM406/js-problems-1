@@ -2,8 +2,8 @@
 //such as with "badxxx" or "xbadxx" but not "xxbadxx". The string may be any length, including 0.
 
 function hasBad(str){
-  if (str.slice(0,3) === "bad" || str.slice(1,4) === "bad") return true
-  else return false
+  if (str.slice(0,3) === "bad" || str.slice(1,4) === "bad") return true;
+  else return false;
 }
 
 console.log(hasBad('badxx'))
